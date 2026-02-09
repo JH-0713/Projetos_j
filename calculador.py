@@ -20,9 +20,9 @@ list_result = []
 while True:
     print('  ⌈‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾⌉   ')
     print('  |⌈                                  ⌉|   ')
-    print(f'  ||                {list_numero_save}            ||   ')
+    print(f'  ||                              {list_numero_save}  ||   ')
     print('  ||                                  ||   ')
-    print('  ||                                  ||   ')
+    print(f'  ||                              {list_numero_1}  ||   ')
     print('  |⌊                                  ⌋|   ')
-    print('  ⨽—–-−¯_–‾⌟⌞−⨼   ')
+    print('  ')
     break
