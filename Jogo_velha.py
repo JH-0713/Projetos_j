@@ -1,0 +1,30 @@
+
+from veia import *
+print('Jogo da Velha')
+print('')
+print('Escolha com Qual Opção')
+print('')
+print('[1] ❌')
+print('[2] ⭕')
+print('')
+esc_op = input('> ')
+if esc_op == '1':
+    while True:
+        escr1 = str(randint(1, 9))
+        print('')
+        print('')
+        print(f' {lj[0]} ‖ {lj[1]} ‖ {lj[2]}')
+        print('=' * 11)
+        print(f' {lj[3]} ‖ {lj[4]} ‖ {lj[5]}')
+        print('=' * 11)
+        print(f' {lj[6]} ‖ {lj[7]} ‖ {lj[8]}')
+        print('')
+        print('Escolha Um Numero')
+        esc1 = input('> ')
+        print('')
+        print(f'asd: {esc1}')
+        print(f'sda: {escr1}')
+        print('')
+        marcar_p_x(esc1)
+        marcar_c_x(escr1)
+
